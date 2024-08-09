@@ -1,0 +1,16 @@
+# Project information
+site_name: MKDocs Material - Simple Example
+
+# Theme
+theme:
+  name: material
+  features:
+    - navigation.sections
+
+# Markdown extensions
+markdown_extensions:
+  - attr_list
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
